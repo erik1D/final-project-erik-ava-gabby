@@ -6,7 +6,7 @@ import Profile from "./pages/Profile.jsx";
 function App() {
   return (
     <BrowserRouter>
-      <nav>
+      <nav className="text-center text-2xl m-3">
         <Link to="/">Home</Link> |{" "}
         <Link to="/about">About</Link> |{" "}
         <Link to="/profile">Profile</Link>
