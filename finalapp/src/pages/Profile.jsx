@@ -1,5 +1,11 @@
+import Heading from "../components/Heading";
+
 function Profile() {
-  return <h1>Profile Page</h1>;
+  return(
+    <div>
+      <Heading myTitle="PROFILE PAGE"/>
+    </div>
+  );
 }
 
 export default Profile;

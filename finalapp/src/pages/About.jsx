@@ -1,5 +1,11 @@
+import Heading from "../components/Heading";
+
 function About() {
-  return <h1>About Page</h1>;
+  return(
+    <div>
+      <Heading myTitle="MEET THE DEVELOPERS"/> 
+    </div>
+  );
 }
 
 export default About;
