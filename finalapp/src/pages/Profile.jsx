@@ -1,5 +1,5 @@
 import Heading from "../components/Heading";
-import AbtUsPics from "../components/AboutUsPics";
+import ProfilePics from "../components/ProfilePic";
 import Bio from "../components/BioTextBox";
 import CommunitiesJoined from "../components/CommunitiesJoined";
 
@@ -8,7 +8,7 @@ function Profile() {
     <div>
       <Heading myTitle="PROFILE PAGE"/>
       <div className="flex justify-center">
-        <AbtUsPics/>
+        <ProfilePics/>
         <Bio/>
       </div>
       <div className="flex justify-center mt-50">
