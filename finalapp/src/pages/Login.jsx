@@ -1,11 +1,14 @@
 import LoginBox from "../components/LoginBox";
-
+import Heading from '../components/Heading';
 
 function Login(){
    return(
-       <div className="flex items-center justify-center">
+    <>
+        <Heading myTitle="Login Page"/>
+       <div className="flex items-center justify-center mt-10">
            <LoginBox/>
        </div>
+      </> 
    );
 }
 
