@@ -2,7 +2,7 @@ function LoginBox(){
    return(
        <div className="bg-gray-300 border-2 w-xl h-150">
            <div className="text-center mt-4">
-               <h1 className="text-5xl font-google-sans">Login</h1>
+               <h1 className="text-5xl font-google-sans">Welcome Back!</h1>
            </div>
            <div className="m-20 justify-center-safe">
                <form action="">
