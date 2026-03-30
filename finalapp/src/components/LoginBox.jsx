@@ -1,6 +1,6 @@
 function LoginBox(){
    return(
-       <div className="bg-gray-300 border-2 w-xl h-150 shadow-2xl">
+       <div className="bg-[#FFD666] rounded-4xl outline-3 outline-offset-3 w-xl h-150">
            <div className="text-center mt-4">
                <h1 className="text-5xl font-google-sans text-shadow-lg/10">Welcome Back!</h1>
            </div>
@@ -14,7 +14,7 @@ function LoginBox(){
                    <input type="password" name="" id="pwBox" className="w-100 border-b text-2xl outline-none"/>
                    <br />
                    <br />
-                   <input type="checkbox" name="" id="myCheckBox" value="Yes"/>
+                   <input type="checkbox" className="accent-black" name="" id="myCheckBox" value="Yes"/>
                    <label for="myCheckBox" className="ml-3 font-google-sans">Remember Me?</label>
                    <br />
                    <button type="submit" className="text-xl bg-white w-30 rounded-xl ml-35 mt-5 hover:bg-gray-100">Login</button>     
