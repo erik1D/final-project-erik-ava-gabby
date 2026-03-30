@@ -11,11 +11,16 @@ function Profile() {
         <ProfilePics/>
         <Bio/>
       </div>
-      <div className="flex justify-center mt-50">
+      <div className="flex flex-col justify-center items-center mt-50">
+        <h1 className="inline-block text-5xl font-google-sans">Communities Joined</h1>
+        <br />
         <CommunitiesJoined com1="Office workers" com2="Women's Group" com3="College Students"/>
       </div>
 
-      <div className="flex justify-center mt-50">
+              
+      <div className="flex flex-col justify-center items-center mt-50">
+        <h1 className="inline-block text-5xl font-google-sans">Activity</h1>
+        <br />
         <CommunitiesJoined com1="Liked a post about welcome circle" com2="Joined Women's Group" com3="Liked a post about student get together"/>
       </div>
     </div>
