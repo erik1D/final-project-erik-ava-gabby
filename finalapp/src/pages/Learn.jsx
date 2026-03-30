@@ -1,4 +1,5 @@
 import Heading from "../components/Heading";
+import Articles from "../components/Articles";
 
 
 function Learn() {
@@ -6,7 +7,11 @@ function Learn() {
        <div>
     <Heading myTitle="LEARN PAGE"/>
 
+    <div>
+            {Articles()}
 
+
+    </div>
 
     </div>
     );
