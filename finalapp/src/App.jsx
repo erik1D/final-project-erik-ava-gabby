@@ -4,6 +4,7 @@ import About from "./pages/About.jsx";
 import Profile from "./pages/Profile.jsx";
 import Login from "./pages/Login.jsx";
 import Search from "./pages/Search.jsx";
+import Learn from "./pages/Learn.jsx";
 
 function App() {
  return (
@@ -13,7 +14,8 @@ function App() {
         <Link to="/about">About</Link> |{" "}
         <Link to="/profile">Profile</Link> |{" "}
         <Link to="/login">Login</Link> |{" "}
-        <Link to="/search">🔍</Link>
+        <Link to="/search">🔍</Link>  |{" "}
+        <Link to="/learn">Learn</Link>
      </nav>
 
      <Routes>
@@ -22,6 +24,7 @@ function App() {
        <Route path="/profile" element={<Profile />} />
        <Route path="/login" element={<Login />} />
        <Route path="/search" element={<Search />} />
+       <Route path="/learn" element={<Learn />} />
      </Routes>
    </BrowserRouter>
  );
