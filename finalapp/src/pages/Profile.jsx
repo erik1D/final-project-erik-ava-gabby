@@ -17,7 +17,6 @@ function Profile() {
         <CommunitiesJoined com1="Office workers" com2="Women's Group" com3="College Students"/>
       </div>
 
-              
       <div className="flex flex-col justify-center items-center mt-50">
         <h1 className="inline-block text-5xl font-google-sans">Activity</h1>
         <br />

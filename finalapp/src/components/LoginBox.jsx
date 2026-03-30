@@ -1,6 +1,6 @@
 function LoginBox(){
    return(
-       <div className="bg-gray-300 border-2 w-xl h-150 shadow-2xl">
+       <div className="bg-[#FFE499] rounded-4xl outline-3 outline-offset-3 w-xl h-150">
            <div className="text-center mt-4">
                <h1 className="text-5xl font-google-sans text-shadow-lg/10">Welcome Back!</h1>
            </div>

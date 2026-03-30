@@ -15,13 +15,13 @@ function About() {
       name: "Gabby Lu", 
       role: " Developer", 
       bio: "I like boba.", 
-      image: GabbyBabyPic
+      image: AvaBabyPic
     },
     { 
       name: "Avalynn Lau", 
       role: "Designer", 
       bio: "I like cats.", 
-      image: AvaBabyPic
+      image: GabbyBabyPic
     }
   ];
 
@@ -37,20 +37,23 @@ function About() {
 
       {}
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 max-w-6xl mx-auto">
-        {developers.map((dev) => (
-          <div key={dev.name} className="bg-white p-6 rounded-xl shadow-md border border-gray-200 flex flex-col items-center text-center transition duration-150 ease-in-out hover:scale-110">
-            <img 
-              src={dev.image} 
-              alt={dev.name} 
-              className="w-24 h-24 bg-gray-300 rounded-full mb-4 object-cover"
-            />
-            <h3 className="text-xl font-bold text-gray-800">{dev.name}</h3>
-            <p className="text-lg text-[#FFC933]">{dev.role}</p>
-            <p className="text-gray-600 mt-2">{dev.bio}</p>
-          </div>
-        ))}
-      </div>
+<div className="flex flex-wrap justify-center gap-6">
+  {developers.map((dev) => (
+    <div
+      key={dev.name}
+      className="bg-white w-100 p-6 rounded-xl shadow-md border border-gray-200 flex flex-col items-center text-center transition duration-150 ease-in-out hover:scale-110"
+    >
+      <img 
+        src={dev.image} 
+        alt={dev.name} 
+        className="w-24 h-24 bg-gray-300 rounded-full mb-4 object-cover"
+      />
+      <h3 className="text-xl font-bold text-gray-800">{dev.name}</h3>
+      <p className="text-lg text-[#FFC933]">{dev.role}</p>
+      <p className="text-gray-600 mt-2">{dev.bio}</p>
+    </div>
+  ))}
+</div>
     </div>
   );
 }
