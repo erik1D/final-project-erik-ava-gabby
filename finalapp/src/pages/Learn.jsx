@@ -1,5 +1,6 @@
 import Heading from "../components/Heading";
 import Articles from "../components/Articles";
+import LearnIS from "../components/LearnIS";
 
 
 function Learn() {
@@ -8,6 +9,7 @@ function Learn() {
     <Heading myTitle="LEARN PAGE"/>
 
     <div>
+        <LearnIS />
             {Articles()}
 
 
