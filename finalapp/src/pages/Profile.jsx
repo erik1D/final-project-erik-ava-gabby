@@ -5,7 +5,7 @@ import CommunitiesJoined from "../components/CommunitiesJoined";
 
 function Profile() {
   return(
-    <div>
+    <div className="bg-[#FFF8E5]">
       <Heading myTitle="PROFILE PAGE"/>
       <div className="flex justify-center">
         <ProfilePics/>

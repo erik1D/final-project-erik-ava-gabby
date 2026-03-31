@@ -5,7 +5,7 @@ import LearnIS from "../components/LearnIS";
 
 function Learn() {
     return (
-       <div>
+       <div className="bg-[#FFF8E5] min-h-screen">
     <Heading myTitle="LEARN PAGE"/>
 
     <div>

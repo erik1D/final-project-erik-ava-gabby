@@ -14,8 +14,8 @@ function App() {
         <Link to="/about">About</Link> |{" "}
         <Link to="/profile">Profile</Link> |{" "}
         <Link to="/login">Login</Link> |{" "}
-        <Link to="/search">🔍</Link>  |{" "}
-        <Link to="/learn">Learn</Link>
+        <Link to="/learn">Learn</Link> |{" "}    
+         <Link to="/search">🔍</Link>     
      </nav>
 
      <Routes>
@@ -23,8 +23,8 @@ function App() {
        <Route path="/about" element={<About />} />
        <Route path="/profile" element={<Profile />} />
        <Route path="/login" element={<Login />} />
-       <Route path="/search" element={<Search />} />
        <Route path="/learn" element={<Learn />} />
+        <Route path="/search" element={<Search />} />
      </Routes>
    </BrowserRouter>
  );

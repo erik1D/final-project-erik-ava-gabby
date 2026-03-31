@@ -17,7 +17,7 @@ function LoginBox(){
                    <input type="checkbox" className="accent-black" name="" id="myCheckBox" value="Yes"/>
                    <label for="myCheckBox" className="ml-3 font-google-sans">Remember Me?</label>
                    <br />
-                   <button type="submit" className="text-xl bg-white w-30 rounded-xl ml-35 mt-5 hover:bg-gray-100">Login</button>     
+                   <button type="submit" className="bg-white rounded-2xl w-[150px] mt-5 cursor-pointer font-google-sans mx-auto block transition duration-150 ease-in-out hover:scale-110">Login</button>     
                </form>
            </div>
        </div>

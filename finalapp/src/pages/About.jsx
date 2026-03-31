@@ -26,7 +26,7 @@ function About() {
   ];
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-[#FFF8E5] min-h-screen">
       <Heading myTitle="MEET THE DEVELOPERS" />
 
       <div className="bg-[#FFE499]  border-blue-500 p-4 mt-10 mb-8 max-w-6xl mx-auto shadow-sm">

@@ -8,7 +8,7 @@ import WomenHR from '../assets/WomenHR.jpg';
 
 function Search(){
     return(
-        <div>
+        <div className="bg-[#FFF8E5] min-h-screen">
             <Heading myTitle="Search For a Community"/>
             <SearchBox/>
             <SearchGrid img1={CollegeStudents} img2={OfficeLogo} img3={WomenHR}/>
