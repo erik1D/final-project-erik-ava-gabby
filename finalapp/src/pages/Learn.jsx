@@ -4,7 +4,7 @@ import Articles from "../components/Articles";
 
 function Learn() {
     return (
-       <div>
+       <div className="bg-[#FFF8E5] min-h-screen">
     <Heading myTitle="LEARN PAGE"/>
 
     <div>
