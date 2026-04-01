@@ -17,7 +17,7 @@ function App() {
   </button>
 
     
-   <BrowserRouter>
+   <BrowserRouter basename="/final-project-erik-ava-gabby/">
       {isOpen && (
      <nav className="text-center text-2xl m-3">
         <Link to="/" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Home</Link>
