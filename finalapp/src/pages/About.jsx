@@ -15,13 +15,13 @@ function About() {
       name: "Gabby Lu", 
       role: " Developer", 
       bio: "I like boba.", 
-      image: AvaBabyPic
+      image: GabbyBabyPic
     },
     { 
       name: "Avalynn Lau", 
       role: "Designer", 
       bio: "I like cats.", 
-      image: GabbyBabyPic
+      image: AvaBabyPic
     }
   ];
 

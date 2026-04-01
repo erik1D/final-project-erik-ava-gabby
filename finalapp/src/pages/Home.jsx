@@ -6,7 +6,7 @@ import Quote from "../components/Quote";
 function Home() {
   return (
     <div className="min-h-screen bg-[#FFF8E5] ">
-    <Heading myTitle="WELCOME TO THE HOME PAGE"/>
+    <Heading myTitle="HOME PAGE" subText="Welcome!"/>
     <div className="quote flex justify-center mt-50">
         <Quote randomQuote="Be yourself; everyone else is already taken" author= "Oscar Wilde" />
     </div>
