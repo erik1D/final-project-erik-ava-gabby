@@ -20,12 +20,12 @@ function App() {
    <BrowserRouter>
       {isOpen && (
      <nav className="text-center text-2xl m-3">
-        <Link to="/" className="rounded-xl p-1 font-google-sans mx-1">Home</Link>
-        <Link to="/about" className="rounded-xl p-1 font-google-sans mx-1">About</Link>
-        <Link to="/profile" className="rounded-xl p-1 font-google-sans mx-1">Profile</Link> 
-        <Link to="/login" className="rounded-xl p-1 font-google-sans mx-1">Login</Link> 
-        <Link to="/account" className="rounded-xl p-1 font-google-sans mx-1">Account</Link>
-        <Link to="/learn" className="rounded-xl p-1 font-google-sans mx-1">Learn</Link> 
+        <Link to="/" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Home</Link>
+        <Link to="/about" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">About</Link>
+        <Link to="/profile" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Profile</Link> 
+        <Link to="/login" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Login</Link> 
+        <Link to="/account" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Account</Link>
+        <Link to="/learn" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Learn</Link> 
          <Link to="/search" className="mx-1">🔍</Link>     
      </nav>
       )}
