@@ -33,7 +33,7 @@ function LearnIS() {
                 </div>
                 
                 <div className="bg-white p-4 rounded-lg shadow">
-                    <h3 className="text-xl font-semibold mb-2 text-yellow-400">6. Seek Feedback</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-yellow-500">6. Seek Feedback</h3>
                     <p className="text-gray-700">Seek constructive feedback from trusted sources because external validation can help challenge your negative self-perception.</p>
                 </div>
             </div>
