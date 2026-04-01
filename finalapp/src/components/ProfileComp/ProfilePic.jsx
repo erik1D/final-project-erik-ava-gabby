@@ -1,4 +1,4 @@
-import dog from '../assets/Dog.png'
+import dog from '../../assets/Dog.png'
 
 function ProfilePics(){
     return(

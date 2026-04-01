@@ -1,7 +1,7 @@
 import Heading from "../components/Heading";
-import ProfilePics from "../components/ProfilePic";
-import Bio from "../components/BioTextBox";
-import CommunitiesJoined from "../components/CommunitiesJoined";
+import ProfilePics from "../components/ProfileComp/ProfilePic";
+import Bio from "../components/ProfileComp/BioTextBox";
+import CommunitiesJoined from "../components/ProfileComp/CommunitiesJoined";
 
 function Profile() {
   return(
