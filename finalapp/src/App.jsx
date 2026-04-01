@@ -6,6 +6,7 @@ import Profile from "./pages/Profile.jsx";
 import Login from "./pages/Login.jsx";
 import Search from "./pages/Search.jsx";
 import Learn from "./pages/Learn.jsx";
+import Account from "./pages/Account.jsx";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -19,12 +20,13 @@ function App() {
    <BrowserRouter>
       {isOpen && (
      <nav className="text-center text-2xl m-3">
-        <Link to="/" className="rounded-xl bg-black text-white p-1 font-google-sans mx-1">Home</Link>
-        <Link to="/about" className="rounded-xl bg-black text-white p-1 font-google-sans mx-1">About</Link>
-        <Link to="/profile" className="rounded-xl bg-black text-white p-1 font-google-sans mx-1">Profile</Link> 
-        <Link to="/login" className="rounded-xl bg-black text-white p-1 font-google-sans mx-1">Login</Link> 
-        <Link to="/learn" className="rounded-xl bg-black text-white p-1 font-google-sans mx-1">Learn</Link>  
-         <Link to="/search" className="mx-1">🔍</Link>     
+        <Link to="/">Home</Link> |{" "}
+        <Link to="/about">About</Link> |{" "}
+        <Link to="/profile">Profile</Link> |{" "}
+        <Link to="/login">Login</Link> |{" "}
+        <Link to="/account">Account</Link> |{" "}
+        <Link to="/learn">Learn</Link> |{" "}    
+         <Link to="/search">🔍</Link>     
      </nav>
       )}
      <Routes>
@@ -32,6 +34,7 @@ function App() {
        <Route path="/about" element={<About />} />
        <Route path="/profile" element={<Profile />} />
        <Route path="/login" element={<Login />} />
+       <Route path="/account" element={<Account />} />
        <Route path="/learn" element={<Learn />} />
         <Route path="/search" element={<Search />} />
      </Routes>
