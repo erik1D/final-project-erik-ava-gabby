@@ -20,15 +20,17 @@ function App() {
    <BrowserRouter>
       {isOpen && (
      <nav className="text-center text-2xl m-3">
-        <Link to="/">Home</Link> |{" "}
-        <Link to="/about">About</Link> |{" "}
-        <Link to="/profile">Profile</Link> |{" "}
-        <Link to="/login">Login</Link> |{" "}
-        <Link to="/account">Account</Link> |{" "}
-        <Link to="/learn">Learn</Link> |{" "}    
-         <Link to="/search">🔍</Link>     
+        <Link to="/" className="rounded-xl p-1 font-google-sans mx-1">Home</Link>
+        <Link to="/about" className="rounded-xl p-1 font-google-sans mx-1">About</Link>
+        <Link to="/profile" className="rounded-xl p-1 font-google-sans mx-1">Profile</Link> 
+        <Link to="/login" className="rounded-xl p-1 font-google-sans mx-1">Login</Link> 
+        <Link to="/account" className="rounded-xl p-1 font-google-sans mx-1">Account</Link>
+        <Link to="/learn" className="rounded-xl p-1 font-google-sans mx-1">Learn</Link> 
+         <Link to="/search" className="mx-1">🔍</Link>     
      </nav>
       )}
+
+      
      <Routes>
        <Route path="/" element={<Home />} />
        <Route path="/about" element={<About />} />
