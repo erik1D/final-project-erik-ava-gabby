@@ -1,5 +1,6 @@
 import Heading from '../components/Heading';
 import ContactBox from '../components/ContactBox';
+import Availability from '../components/Availability';
 
 function Contact() {
   return (
@@ -8,6 +9,7 @@ function Contact() {
 
     <div>
         <ContactBox/>
+        <Availability/>
     </div>
     
 </div>
