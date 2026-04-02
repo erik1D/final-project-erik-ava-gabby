@@ -1,6 +1,6 @@
 function Articles() {
     return (
-        <div className="text-center font-bold font-google-sans text-3xl mt-20">
+        <div className="text-center font-bold font-google-sans text-3xl mt-20 p-10">
             <p>Want to learn more? Here are a variety of articles on imposter syndrome:</p>
             <br></br>
             <ul className="text-center font-google-sans text-2xl space-y-6" >

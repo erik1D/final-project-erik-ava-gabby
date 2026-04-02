@@ -4,11 +4,11 @@ import SaveButton from "./SaveButton";
 
 function ViewPost({imagePost}){
     return(
-        <div className=" m-7 pt-17 bg bg-[#FFE499] w-[500px] h-[600px] rounded-4xl">
-            <div className="m-auto w-[500px] h-[400px]">
-                <img src={imagePost} alt=""/>
+        <div className="mx-6 my-7 bg-[#FFE499] w-full max-w-[500px] min-h-[600px] rounded-4xl shadow-xl overflow-hidden">
+            <div className="w-full h-[400px] overflow-hidden">
+                <img src={imagePost} alt="" className="w-full h-full object-cover"/>
             </div>
-            <div className="h-[135px] w-auto flex justify-center ">
+            <div className="h-[135px] w-full flex items-center justify-center gap-4 p-4 bg-[#FFE499]">
                 <LikeButton/>
                 <CommentButton/>
                 <SaveButton/>

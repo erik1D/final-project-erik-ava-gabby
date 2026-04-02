@@ -1,6 +1,7 @@
 import Heading from "../components/Heading";
 import ViewPost from "../components/ViewPost";
 import WomanPost from "../assets/WomanWorkingPost.png"
+import StudentPic from './../assets/StudentsPic.png';
 import Quote from "../components/Quote";
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
 
     <br></br>
     <ViewPost imagePost={WomanPost}/>
+    <ViewPost imagePost={StudentPic}/>
     </div>
   );
 }
