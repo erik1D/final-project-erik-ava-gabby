@@ -21,6 +21,8 @@ function Profile() {
         <h1 className="inline-block text-5xl font-google-sans">Activity</h1>
         <br />
         <CommunitiesJoined com1="Liked a post about welcome circle" com2="Joined Women's Group" com3="Liked a post about student get together"/>
+        <br />
+        <br />
       </div>
     </div>
   );
