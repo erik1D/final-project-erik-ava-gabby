@@ -6,7 +6,7 @@ function LearnIS() {
             
             <h2 className="text-3xl font-bold mb-6 text-center">Tips to Tackle Imposter Syndrome</h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="">
                 <div className="bg-white p-4 rounded-lg shadow">
                     <h3 className="text-xl font-semibold mb-2 text-yellow-500">1. Acknowledge Your Achievements</h3>
                     <p className="text-gray-700">Take time to recognize and celebrate your accomplishments. Keeping a list of your wins, compliments, and successes to remind yourself of your capabilities.</p>
