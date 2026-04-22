@@ -26,9 +26,9 @@ function App() {
         <Link to="/profile" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Profile</Link> 
         <Link to="/login" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Login</Link> 
         <Link to="/account" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Account</Link>
-        <Link to="/learn" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Learn</Link> 
-         <Link to="/search" className="mx-1">🔍</Link>   
-        <Link to="/contact" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Contact</Link>  
+        <Link to="/learn" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Learn</Link>         
+        <Link to="/contact" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Contact</Link>
+        <Link to="/search" className="mx-1">🔍</Link>   
      </nav>
       )}
 
@@ -39,9 +39,9 @@ function App() {
        <Route path="/profile" element={<Profile />} />
        <Route path="/login" element={<Login />} />
        <Route path="/account" element={<Account />} />
-       <Route path="/learn" element={<Learn />} />
-       <Route path="/search" element={<Search />} />
+       <Route path="/learn" element={<Learn />} />      
        <Route path="/contact" element={<Contact />} />
+       <Route path="/search" element={<Search />} />
      </Routes>
    </BrowserRouter>
    </>

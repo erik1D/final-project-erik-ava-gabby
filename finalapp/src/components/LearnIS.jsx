@@ -7,32 +7,32 @@ function LearnIS() {
             <h2 className="text-3xl font-bold mb-6 text-center">Tips to Tackle Imposter Syndrome</h2>
             
             <div className="">
-                <div className="bg-white p-4 rounded-lg shadow">
+                <div className="bg-white p-4 mb-4 rounded-lg shadow">
                     <h3 className="text-xl font-semibold mb-2 text-yellow-500">1. Acknowledge Your Achievements</h3>
                     <p className="text-gray-700">Take time to recognize and celebrate your accomplishments. Keeping a list of your wins, compliments, and successes to remind yourself of your capabilities.</p>
                 </div>
                 
-                <div className="bg-white p-4 rounded-lg shadow">
+                <div className="bg-white p-4 mb-4 rounded-lg shadow">
                     <h3 className="text-xl font-semibold mb-2 text-yellow-500">2. Reward Yourself</h3>
                     <p className="text-gray-700">Treat yourself with kindness and understanding, as everyone makes mistakes and faces challenges. It is part of growth!</p>
                 </div>
                 
-                <div className="bg-white p-4 rounded-lg shadow">
+                <div className="bg-white p-4 mb-4 rounded-lg shadow">
                     <h3 className="text-xl font-semibold mb-2 text-yellow-500">3. Share Your Feelings</h3>
                     <p className="text-gray-700">Talk to friends, family, or peers about your feelings, as you'll likely discover that others experience similar doubts and insecurities.</p>
                 </div>
                 
-                <div className="bg-white p-4 rounded-lg shadow">
+                <div className="bg-white p-4 mb-4 rounded-lg shadow">
                     <h3 className="text-xl font-semibold mb-2 text-yellow-500">4. Focus on Learning, Not Perfection</h3>
                     <p className="text-gray-700">Embrace a growth mindset by viewing challenges as opportunities to learn rather than threats to your competence.</p>
                 </div>
                 
-                <div className="bg-white p-4 rounded-lg shadow">
+                <div className="bg-white p-4 mb-4 rounded-lg shadow">
                     <h3 className="text-xl font-semibold mb-2 text-yellow-500">5. Document Your Progress</h3>
                     <p className="text-gray-700">Keep track of your skills, projects, and accomplishments. When reviewing your growth over time, it helps counter self-doubt.</p>
                 </div>
                 
-                <div className="bg-white p-4 rounded-lg shadow">
+                <div className="bg-white p-4 mb-4 rounded-lg shadow">
                     <h3 className="text-xl font-semibold mb-2 text-yellow-500">6. Seek Feedback</h3>
                     <p className="text-gray-700">Seek constructive feedback from trusted sources because external validation can help challenge your negative self-perception.</p>
                 </div>
