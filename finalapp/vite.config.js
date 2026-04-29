@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'    // <-- ADD THIS
  
 export default defineConfig({
   plugins: [react(), tailwindcss()],    
-  base: '/final-project-erik-ava-gabby/',
-  
+  base: '/final-project-erik-ava-gabby/', // Ensure this matches your repo name exactly
 })
+
