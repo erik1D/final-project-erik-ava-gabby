@@ -8,6 +8,7 @@ import Search from "./pages/Search.jsx";
 import Learn from "./pages/Learn.jsx";
 import Account from "./pages/Account.jsx";
 import Contact from "./pages/Contact.jsx";
+import Motivation from "./pages/Motivation.jsx";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -28,6 +29,7 @@ function App() {
         <Link to="/account" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Account</Link>
         <Link to="/learn" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Learn</Link>         
         <Link to="/contact" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Contact</Link>
+        <Link to="/motivation" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Motivation</Link>
         <Link to="/search" className="mx-1">🔍</Link>   
      </nav>
       )}
@@ -42,6 +44,7 @@ function App() {
        <Route path="/learn" element={<Learn />} />      
        <Route path="/contact" element={<Contact />} />
        <Route path="/search" element={<Search />} />
+      <Route path="/motivation" element={<Motivation />} />
      </Routes>
    </BrowserRouter>
    </>
