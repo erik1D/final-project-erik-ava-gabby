@@ -7,7 +7,6 @@ import Login from "./pages/Login.jsx";
 import Search from "./pages/Search.jsx";
 import Learn from "./pages/Learn.jsx";
 import Account from "./pages/Account.jsx";
-import Contact from "./pages/Contact.jsx";
 import PrivateRoute from "./components/PrivateRoute.jsx";
 import Motivation from "./pages/Motivation.jsx";
 import Inquiry from "./pages/Inquiry.jsx";
