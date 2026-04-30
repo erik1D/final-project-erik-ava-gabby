@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import { useState } from "react"
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
@@ -13,9 +13,9 @@ import Inquiry from "./pages/Inquiry.jsx";
 
 function App() {
   return (
-    <BrowserRouter basename="/final-project-erik-ava-gabby/">
+    <HashRouter>
       <AppContent />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
