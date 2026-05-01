@@ -27,13 +27,13 @@ function Motivation() {
 
     return (
     <div className="min-h-screen bg-[#FFF8E5]">
-        <Heading myTitle="Motivation" />
+        <Heading myTitle="MOTIVATION" />
 
         <div className="flex flex-col items-center mt-16 px-4">
             {}
             <div className="text-center mb-8">
                 <p className="text-xl font-light text-gray-700 ">
-                    Sometimes all you need is a <span className="font-semibold text-yellow-600">little shift</span> in perspective
+                    Sometimes all you need is a <span className="font-semibold text-yellow-500">little shift</span> in perspective
                 </p>
                 <p className="text-sm text-gray-500 uppercase tracking-widest mt-1">Grab your boost below</p>
             </div>
