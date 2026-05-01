@@ -21,14 +21,20 @@ const communities = [
    {'id':6,'community':"Minority Groups", "description":"A community for minority groups to share their experiences and support each other."},
    {'id':7,'community':"Explorers", "description":"A community for people who love to explore new places and share their adventures."},
    {'id':8,'community':"Mentors", "description":"A community for mentors to share their wisdom and guide others in their personal and professional development."},
-   {'id':9,'community':"drink enthusiasts", "description":"A community for people who love drinking to share their favorite places and drinks."},
+   {'id':9,'community':"Drink Enthusiasts", "description":"A community for people who love drinking to share their favorite places and drinks."},
    {'id':10,'community':"Book Lovers", "description":"A community for people who love reading to share their favorite books and discuss literature."},
    {'id':11,'community':"Art Lovers", "description":"A community for people who love art to share their favorite pieces and discuss the creative process."},
    {'id':12,'community':"Music Lovers", "description":"A community for people who love music to share their favorite songs and ones they made themselves."},
-   {'id':13,'community':"Gaming Enthusiasts", "description":"A community for people who love gaming to share their favorite games and discuss the latest updates."}
-
+   {'id':13,'community':"Gaming Enthusiasts", "description":"A community for people who love gaming to share their favorite games and discuss the latest updates."},
+   {'id':14,'community':"Tech Enthusiasts", "description":"A community for people who love technology to share their favorite gadgets and discuss the latest trends."},
+   {'id':15,'community':"Fitness Enthusiasts", "description":"A community for people who love fitness to share their favorite workouts and discuss the latest health trends."},
+   {'id':16,'community':"Travelers", "description":"A community for people who love to travel to share their favorite destinations and experiences."},
+   {'id':17,'community':"Photography", "description":"A community for people who love photography to share their favorite photos and tips on how to improve their skills."},
+   {'id':18,'community':"Cooking Enthusiasts", "description":"A community for people who love cooking to share their favorite recipes and discuss the latest culinary trends."},
+   {'id':19,'community':"Hiking Enthusiasts", "description":"A community for people who love hiking to share their favorite trails and discuss the latest outdoor trends."},
+   {'id':20,'community':"Geocaching", "description":"A community for people who love geocaching to share their favorite caches and discuss the latest geocaching trends."},
+   {'id':21,'community':"Foodies", "description":"A community for people who love food to share their favorite recipes and discuss viral food businesses."},
 ]
-
 
 
 
