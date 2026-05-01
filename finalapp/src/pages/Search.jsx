@@ -33,7 +33,11 @@ const communities = [
    {'id':18,'community':"Cooking Enthusiasts", "description":"A community for people who love cooking to share their favorite recipes and discuss the latest culinary trends."},
    {'id':19,'community':"Hiking Enthusiasts", "description":"A community for people who love hiking to share their favorite trails and discuss the latest outdoor trends."},
    {'id':20,'community':"Geocaching", "description":"A community for people who love geocaching to share their favorite caches and discuss the latest geocaching trends."},
-   {'id':21,'community':"Foodies", "description":"A community for people who love food to share their favorite recipes and discuss viral food businesses."}
+   {'id':21,'community':"Foodies", "description":"A community for people who love food to share their favorite recipes and discuss viral food businesses."},
+   {'id':22,'community':"Pet Lovers", "description":"A community for people who love pets to share their favorite pet care tips and discuss the latest trends in pet ownership."},
+   {'id':23,'community':"Low-Income Individuals", "description":"A community for people who are facing financial challenges to share their favorite resources and discuss the latest trends in financial support."},
+   {'id':24,'community':"Homeless Individuals", "description":"A community for people who are experiencing homelessness to share their experiences and support each other."},
+   {'id':25,'community':"Single Parents", "description":"A community for single parents to share their experiences and support each other."}
 ]
 
 
