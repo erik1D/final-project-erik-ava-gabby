@@ -14,7 +14,7 @@ function About() {
     { 
       name: "Gabby Lu", 
       role: " Developer", 
-      bio: "Hello! I'm Gabby, I was born in Berkeley, but raised in Oakland. I enjoy getting boba and matcha. My favorite color is purple and I have a pet dog named Odin!", 
+      bio: "Hello! I'm Gabby, I was born in Berkeley, but raised in Oakland. I enjoy getting boba and matcha. A fun fact about me is that I have a german shepherd named Odin!", 
       image: GabbyBabyPic
     },
     { 
@@ -29,7 +29,7 @@ function About() {
     <div className="bg-[#FFF8E5] min-h-screen">
       <Heading myTitle="MEET THE DEVELOPERS" />
 
-      <div className="bg-[#FFE499]  border-blue-500 p-4 mt-10 mb-8 max-w-6xl mx-auto shadow-sm">
+      <div className="bg-[#FFE499]  border-blue-500 p-4 mt-10 mb-8 max-w-6xl mx-auto shadow-md">
   <p className="text-black-800 font-medium">
     <strong>Our Mission:</strong> Our mission is to empower students who struggle with imposter syndrome by providing a platform that connects them with mentors and communities to help guide them through their educational and career journeys. Through our platform, we aim to create a supportive community where students can access valuable resources, spread awareness, and build lasting relationships that will help them achieve their goals.
   </p>
