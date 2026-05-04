@@ -16,7 +16,7 @@ function App() {
     <HashRouter>
       <AppContent />
     </HashRouter>
-  )
+      )
 }
 
 function AppContent() {
@@ -33,13 +33,14 @@ function AppContent() {
           </button>
 
           {isOpen && (
-            <nav className="text-center text-2xl m-3">
+            <nav className="text-center text-2xl m-3 ">
+                  <h1 className ="text-3xl font-bold text-gray-800">Impasta Syndrome</h1>
               <Link to="/home" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Home</Link>
               <Link to="/about" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">About</Link> 
               <Link to="/learn" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Learn</Link>         
               <Link to="/profile" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Profile</Link>
               <Link to="/motivation" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Motivation</Link>
-              <Link to="/inquiry" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Inquiry</Link>
+              <Link to="/inquiry" className="rounded-xl p-1 font-google-sans mx-1 cursor-pointer transition duration-150 ease-in-out hover:opacity-50">Mentorship</Link>
               <Link to="/search" className="mx-1">🔍</Link>   
             </nav>
           )}

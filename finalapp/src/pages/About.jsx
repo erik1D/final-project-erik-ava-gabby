@@ -8,19 +8,19 @@ function About() {
     {
       name: "Erik Diaz", 
       role: "Lead Coder", 
-      bio: "I like games.", 
+      bio: "Hello! I'm Erik and I was born and raised in the Bay Area. I enjoy playing video games. My favorite color is blue!", 
       image: ErikBabyPic
     },
     { 
       name: "Gabby Lu", 
       role: " Developer", 
-      bio: "I like boba.", 
+      bio: "Hello! I'm Gabby, I was born in Berkeley, but raised in Oakland. I enjoy getting boba and matcha. My favorite color is purple and I have a pet dog named Odin!", 
       image: GabbyBabyPic
     },
     { 
       name: "Avalynn Lau", 
       role: "Designer", 
-      bio: "I like cats.", 
+      bio: "Whats up you tube tube tube tube, I'm Ava and I was raised in the Bay Area. I like playing violin and getting boba with my friends. ", 
       image: AvaBabyPic
     }
   ];
@@ -31,7 +31,7 @@ function About() {
 
       <div className="bg-[#FFE499]  border-blue-500 p-4 mt-10 mb-8 max-w-6xl mx-auto shadow-sm">
   <p className="text-black-800 font-medium">
-    <strong>Our Mission:</strong> Our mission is to blah blah blah...
+    <strong>Our Mission:</strong> Our mission is to empower students who struggle with imposter syndrome by providing a platform that connects them with mentors and communities to help guide them through their educational and career journeys. Through our platform, we aim to create a supportive community where students can access valuable resources, spread awareness, and build lasting relationships that will help them achieve their goals.
   </p>
       </div>
 

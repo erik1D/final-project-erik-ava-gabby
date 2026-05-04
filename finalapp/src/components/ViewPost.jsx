@@ -4,7 +4,7 @@ import SaveButton from "./SaveButton";
 
 function ViewPost({imagePost}){
     return(
-        <div className="mx-6 my-7 bg-[#FFE499] w-full max-w-[500px] min-h-[600px] rounded-4xl shadow-xl overflow-hidden">
+        <div className="bg-[#FFE499] w-full max-w-[500px] min-h-[600px] rounded-4xl shadow-xl overflow-hidden mx-auto">
             <div className="w-full h-[400px] overflow-hidden">
                 <img src={imagePost} alt="" className="w-full h-full object-cover"/>
             </div>

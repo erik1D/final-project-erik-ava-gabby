@@ -1,4 +1,6 @@
 import Heading from '../components/Heading';
+
+
 function Inquiry() {
  const faqData = [
    {
@@ -6,59 +8,63 @@ function Inquiry() {
      answer: "About 24-48 hours.",
    },
    {
-     question: "How do we request a specific developer?",
-     answer: "Please write in your inquiry the specific developer you would like to talk to. ",
+     question: "How do we request a specific Mentor?",
+     answer: "Please write in your inquiry the specific mentor you would like to talk to. ",
    },
    {
      question: "How do we know if our inquiry was received?",
      answer: "You will receive a confirmation email once your inquiry is received.",
    },
+   {
+     question: "What information should I include in my inquiry?",
+     answer: "Please include your name, email, and a brief description of the mentorship you are seeking."
+   }
  ];
 
 
  return (
-  <>
-  <Heading myTitle="INQUIRY"></Heading>
-   <div className="bg-[#FFF8E5] min-h-screen p-8 flex flex-col items-center">
-    
-
-
-     <div className="w-full max-w-4xl space-y-4 mb-10">
-       {faqData.map((item) => (
-         <div key={item.question} className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
-           <h3 className="text-lg font-bold text-yellow-500 mb-2">{item.question}</h3>
-           <p className="text-gray-600">{item.answer}</p>
-         </div>
-       ))}
+   <div className="min-h-screen bg-[#FFF8E5]">
+     <div className="w-full bg-white shadow-sm">
+       <Heading myTitle="Request Mentor" />
      </div>
 
 
-     <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-[#FFD666] w-full max-w-2xl">
-       <h3 className="text-xl font-bold text-gray-800 mb-6 text-center">Send us a Message</h3>
-      
-       <div className="flex flex-col gap-4">
-         <input
-           type="email"
-           placeholder="Your Email"
-           className="p-3 border border-[#FFE499] rounded-lg outline-none focus:ring-2 focus:ring-yellow-500"
-         />
+     <div className="flex flex-col items-center py-10 px-4">
+       <div className="w-full max-w-4xl space-y-4 mb-10">
+         {faqData.map((item) => (
+           <div key={item.question} className="bg-white p-6 rounded-xl shadow-md border border-blue-200">
+             <h3 className="text-lg font-bold text-yellow-600 mb-2">{item.question}</h3>
+             <p className="text-yellow-600">{item.answer}</p>
+           </div>
+         ))}
+       </div>
 
 
-         <textarea
-           placeholder="Type your message here..."
-           rows="5"
-           className="p-3 border border-[#FFE499] rounded-lg outline-none focus:ring-2 focus:ring-yellow-500"
-         ></textarea>
+       <div className="bg-blue-50 p-8 rounded-2xl shadow-xl border-2 border-blue-200 w-full max-w-2xl">
+         <h3 className="text-xl font-bold text-yellow-800 mb-6 text-center">Send us a Message</h3>
+        
+         <div className="flex flex-col gap-4">
+           <input
+             type="email"
+             placeholder="Your Email"
+             className="p-3 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-orange-500"
+           />
 
 
-         <button className="bg-yellow-500 text-white font-bold py-3 rounded-lg hover:bg-[#FFE499] transition">
-           Submit Inquiry
-         </button>
+           <textarea
+             placeholder="Type your message here..."
+             rows="5"
+             className="p-3 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-blue-500"
+           ></textarea>
+
+
+           <button className="bg-yellow-600 text-white font-bold py-3 rounded-lg hover:bg-yellow-700 transition">
+             Submit Inquiry
+           </button>
+         </div>
        </div>
      </div>
-    
    </div>
-   </>
  );
 }
 
