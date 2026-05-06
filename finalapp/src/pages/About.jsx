@@ -8,7 +8,7 @@ function About() {
     {
       name: "Erik Diaz", 
       role: "Lead Coder", 
-      bio: "Hello! I'm Erik and I was born and raised in the Bay Area. I enjoy playing video games. My favorite color is blue!", 
+      bio: "Hello, I'm Erik and I was born and raised in the Bay Area. I enjoy playing video games. My favorite color is blue!", 
       image: ErikBabyPic
     },
     { 
